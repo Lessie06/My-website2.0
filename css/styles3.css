@@ -1,0 +1,154 @@
+body {
+  height: 100vh;
+  background-image: -webkit-linear-gradient(80deg, #f6f6f6 60%, #dbc6eb 40%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #ad6989;
+  text-align: center;
+  text-decoration: underline;
+}
+
+hr {
+  border: dotted #c060a1 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  color: #c060a1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 50px;
+}
+
+.lessie-img {
+  width: 15%;
+  float: left;
+  border-radius: 100%;
+  top: 50px margin-right: 30px;
+  margin-left: 650px;
+}
+
+.about-me {
+  width: 50%;
+  /* margin: 100px auto 100px auto; */
+  text-align: left;
+  margin-left: 400px;
+  margin-top: 250px
+}
+
+.skills-container {
+  margin: 150px 0;
+}
+
+.middle-container {
+  background-color: #dbc6eb;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #dbc6eb;
+  padding: 50px 0px 20px 0px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #dbc6eb;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.images {
+  width: 8%;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.css-img {
+  width: 8%;
+  margin-top: 50px;
+  margin-left: 330px;
+}
+
+.js-img {
+  width: 7%;
+  margin-top: 50px;
+  margin-left: 360px;
+}
+
+.java-img {
+  width: 8%;
+  margin-top: 150px;
+  margin-left: 240px;
+}
+
+.mongo-img {
+  width: 10%;
+  margin-top: 150px;
+  margin-left: 330px;
+}
+
+.node-img {
+  width: 8%;
+  margin-top: 150px;
+  margin-left: 340px;
+}
+
+.card {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  margin-right: 170px;
+  /* margin-left: 50px */
+}
+
+.copyright {
+  color: #EAf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+a {
+  color: #c060a1;
+  font-family: 'Monsterrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAf6f6;
+}
+
+@media (max-width: 1028px) {
+  .images, .css-img, .js-img, .mongo-img, .java-img, .node-img {
+    position: static;
+  }
+}
